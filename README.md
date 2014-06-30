@@ -30,7 +30,7 @@ betwixt host machine and configure application to use HTTP insteas of HTTPS.
 To prevent overloading Orchestra with request from mobile clients the middleware performs caching of 
 Branch and Service data. Default implementation uses a non-scalable in-memory cache, for production  
 deployment it is recommended to replace this implementation with a more robust distributed caching  
-mechanism. A sample [lib/red-cache.js](lib/redis-cache.js) using [Redis](http://redis.io) is provided.
+mechanism. A sample [lib/redis_cache.js](lib/redis_cache.js) using [Redis](http://redis.io) is provided.
 
 ##Using
 * Clone this repo `git clone git@github.com:qmatic/betwixt.git`
