@@ -50,4 +50,4 @@ server.
 	127.0.0.1		www.qmaticbeat.com
 
 ###API
-See [wiki](wiki/API) for API documentation
+See [wiki](https://github.com/qmatic/betwixt/wiki/API) for API documentation
