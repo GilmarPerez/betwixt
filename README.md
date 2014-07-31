@@ -39,7 +39,7 @@ mechanism. A sample [lib/redis_cache.js](lib/redis_cache.js) using [Redis](http:
 * Run `node app` from repo root to start server
  
 ###Orchestra
-* Mobile ennable required Services and Branches within Orchestra configuration. 
+* Mobile enable required Services and Branches within Orchestra configuration. 
 * Enable system parameter (Cloud Services)
 * Restart Orchestra service
 
@@ -48,3 +48,6 @@ in order to use different middleware host a line must be added to the hosts file
 server.
 
 	127.0.0.1		www.qmaticbeat.com
+
+###API
+See [wiki](wiki/API) for API documentation
