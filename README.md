@@ -24,7 +24,7 @@ communication channel with Orchestra server through firewall with no ingress req
 **NOTE:** Default implementation uses an insecure self-signed certificate in /certs directory. This is  
 **only** for development.  
 Best practise for production deployment would be to install an SSL terminating proxy in front of the  
-betwixt host machine and configure application to use HTTP insteas of HTTPS.
+betwixt host machine and configure application to use HTTP instead of HTTPS.
 
 ###Caching layer
 To prevent overloading Orchestra with request from mobile clients the middleware performs caching of 
